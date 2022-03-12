@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px; 
+}
+
+p{
+	line-height:1.5;
+	font-family:'Roboto', san-serif;
+}
+
+.fuentenueva{
+			line-height:2;
+			font-style:italic;
+			padding:25px;
+	}
+.img-thumbnail{
+	max-width: 150px;
+}
+.img-edit{
+	max-width: 250px;
+}
+
+#codigo_seguridad{
+	-webkit-text-security: disc;
+    -moz-text-security:circle;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
+
+
+@media screen and (max-width: 576px){
+	
+	.fondo{
+		background-image:url("../img/friends_portada.jpg");
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		height:275px;
+	}
+
+#anclas div a:hover{
+		text-decoration:none;
+	}
+	#anclas div:hover{
+		text-decoration:none;
+		background: rgba(0,0,0,1);
+		color:white;
+	}
+	
+	.btn-outline-info:hover{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+	.btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active, .show > .btn-outline-info.dropdown-toggle{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+	.offline{
+		color:#BFCED3;
+	}
+
+	.btn-enviar{
+		width: 100%;
+		display: block;
+	}
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+	
+	.fondo{
+		background-image:url("../img/friends_portada.jpg");
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		height:325px;
+	}
+
+#anclas div a:hover{
+		text-decoration:none;
+	}
+	#anclas div:hover{
+		text-decoration:none;
+		background: rgba(0,0,0,1);
+		color:white;
+	}
+	
+	.btn-outline-info:hover{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+	.btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active, .show > .btn-outline-info.dropdown-toggle{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+		.offline{
+		  color:#BFCED3;
+		}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+	.fondo{
+		background-image:url("../img/friends_portada.jpg");
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		height:425px;
+	}
+
+#anclas div a:hover{
+		text-decoration:none;
+	}
+	#anclas div:hover{
+		text-decoration:none;
+		background: rgba(0,0,0,1);
+		color:white;
+	}
+	
+	.btn-outline-info:hover{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+	.btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active, .show > .btn-outline-info.dropdown-toggle{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+		.offline{
+		  color:#BFCED3;
+		}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+	.fondo{
+		background-image:url("../img/friends_portada.jpg");
+		background-attachment:fixed;
+  		background-position: center center;
+  		background-size: cover;
+  		background-repeat:no-repeat;
+  		height:475px;
+	}
+	h1{
+		font-size:0;
+	}
+	
+	.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-nav , .nav-link.active{
+		font-size:16px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.div-container{
+		padding-right: 0px;
+  		padding-left: 0px;
+	}
+
+	#anclas div a:hover{
+		text-decoration:none;
+	}
+	#anclas div:hover{
+		text-decoration:none;
+		background: rgba(0,0,0,1);
+		color:white;
+	}
+	
+	.btn-outline-info:hover{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+	.btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active, .show > .btn-outline-info.dropdown-toggle{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+		.offline{
+		  color:#BFCED3;
+		}
+
+}
+
+@media screen and (min-width: 1200px){
+	
+	.barra{
+		margin:auto;
+		max-width:1200px;
+		margin-top: -6px;
+	}
+
+	.fondo{
+		background-image:url("../img/friends_portada.jpg");
+		margin-top: -7px;
+		background-attachment:fixed;
+  		background-position: center center;
+  		background-size: cover;
+  		background-repeat:no-repeat;
+		height:475px;
+	}
+	h1{
+		font-size:0;
+	}
+	
+	.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-nav , .nav-link.active{
+		font-size:16px;
+		font-family: 'Roboto', sans-serif;
+	}
+
+	.div-container{
+		padding-right: 0px;
+  		padding-left: 0px;
+	}
+
+	#anclas div a:hover{
+		text-decoration:none;
+	}
+	#anclas div:hover{
+		text-decoration:none;
+		background: rgba(0,0,0,1);
+		color:white;
+	}
+	
+	.btn-outline-info:hover{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+	.btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active, .show > .btn-outline-info.dropdown-toggle{
+		background: rgba(0,0,0,1);
+		border-color:rgba(0,0,0,1);
+		color:#fff;
+	}
+
+		.offline{
+		  color:#BFCED3;
+		}
+		
+	.personajes{
+		float:right;
+	}	
+}
