@@ -71,11 +71,8 @@ INSERT INTO tipousuarios SET id = 2, tipousuario = "Usuario";
 INSERT INTO usuarios 
 (id, nombre, apellido, email, contraseña, usuario, tipousuarios_id)
 VALUES
-(1, 'Lautaro', 'Morel', 'lautaro.morel@davinci.edu.ar', '1234', 'lautaromorel', 1),
-(2, 'Jonatan', 'Jorge', 'jonatan.jorge@davinci.edu.ar', '1234', 'jonatanjorge', 1),
-(3, 'Juan', 'Perez', 'juanperez@davinci.edu.ar','1234', 'juanperez', 2),
-(4, 'Cosme', 'Fulanito', 'cosmefulanito@davinci.edu.ar', '1234', 'cosmefulanito', 2),
-(5, 'Ricardo', 'Gonzalez', 'ricardogonzalez@davinci.edu.ar','1234', 'ricardogonzalez', 2);
+(1, 'juan', 'perez', 'juanperez@gmail.com', '1234', 'juanperez', 1),
+(2, 'pepe', 'sanchez', 'pepesanchez@gmail.com', '1234', 'pepesanchez', 2);
 
 #categorias
 INSERT INTO categorias SET id = 1, categoria = "Hombre"; 
